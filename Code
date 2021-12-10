@@ -1,0 +1,16 @@
+import random 
+
+materials = ["paper", "paint", "wood", "metal", "textiles", "leather", "concrete", "lumber", "sheet metal", "tin", "copper", "glue", "fibers", "brass", "sticks", "twigs", "noodles","memories", "dreams", "heartache"]
+locations = ["the sea", "the sky", "the clouds", "europe", "the mountains", "a far away land", "space", "your mind", "within yourself"]
+lights = ["candles", "sunlight", "daylight", "a flashlight", "the glow of a smartphone", "the glow of a ghostly figure", "a sickly glow", "firelight"]
+people = ["kids", "women", "men", "animals", "students", "workers", "actors", "clowns"]
+
+line_1 = "A house of " + random.choice(materials)
+line_2 = "in " + random.choice(locations)
+line_3 = "using " + random.choice(lights)
+line_4 = "inhabited by " + random.choice(people)
+
+print(line_1)
+print(line_2)
+print(line_3)
+print(line_4)
